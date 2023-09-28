@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "How are old are you"
+
+read DOB
+
+if [ "$DOB" -lt 40 ]
+then
+	echo "You are a kid"
+	echo "Next please"
+else
+	echo "Matured, welcome onbaord"
+fi
+
+ 

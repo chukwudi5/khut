@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "How are are you?"
+read age
+
+if [ "$age" -lt 20 ];
+then
+	echo "you should go to children section"
+elif [ "$age" -ge 25 ];
+then
+	echo "proceed to adult section"
+else
+	echo "you dont belong here"
+
+fi

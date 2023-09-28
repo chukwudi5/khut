@@ -1,0 +1,17 @@
+#!/bin/bash
+
+let data=1
+while [ $data -lt 5 ];
+do
+	echo "the value of the data is $data"
+	let data=$data+1
+	sleep 2
+done
+
+i=0
+while true
+do
+	echo " $$ running since $i seconds "
+	let i=$i+1
+	sleep 1
+done
